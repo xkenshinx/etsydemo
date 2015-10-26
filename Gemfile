@@ -20,6 +20,18 @@ gem 'bootstrap-sass', '~> 3.3.5'
 # Paperclip Gem
 gem "paperclip", "~> 4.3"
 
+# Paperclip Gem DropBox, Might be Obsolote, Note on Page
+gem "paperclip-dropbox", ">= 1.1.7"
+
+# Account Protection
+# It looks like a year ago, at least after this class was made, the figaro gem was updated.
+# First off, to install the gem, you don't need to type `rails generate figaro:install`. The new command line is:
+# $ figaro install
+# Secondly, the `rake figaro:heroku` command line is now:
+# $ figaro heroku:set -e production
+
+gem "figaro"
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
