@@ -32,6 +32,8 @@ gem "paperclip-dropbox", ">= 1.1.7"
 
 gem "figaro"
 
+# Account Security and Users
+gem 'devise'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
